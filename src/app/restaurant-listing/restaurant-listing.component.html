@@ -1,0 +1,26 @@
+<div class="restaurant-list-container">
+  <!-- Loop through your restaurant list -->
+  <div class="restaurant-card" *ngFor="let restaurant of restaurantList">
+    <p *ngIf="!restaurantList || restaurantList.length === 0">No restaurants found.</p>
+    <!-- Restaurant Image -->
+    <div class="restaurant-img">
+     <!--  <img *ngFor="let img of restaurantImages" [src]="'assets/img/restaurant-pics/' + img" alt="Restaurant"> -->
+
+     <!-- <img [src]="'img/restaurant-pics/' + getRandomImage()" alt="{{ restaurant?.name }}" />--> 
+     <img *ngFor="let img of restaurantImages" [src]="img" />
+    </div> 
+
+    <!-- Restaurant Details -->
+    <div class="restaurant-details">
+      <p class="restaurant-name">{{ restaurant?.name }}</p>
+    
+      <span class="rating">4.5</span>
+      <span class="rating-count">500</span>
+    </div>
+
+    <!-- Order Button -->
+    <div class="order-btn">
+      <button (click)="orderNow(restaurant.id)">Order Now</button>
+    </div>
+  </div>
+</div>
