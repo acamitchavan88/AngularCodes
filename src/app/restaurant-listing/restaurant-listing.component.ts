@@ -75,6 +75,6 @@ restaurantImages: string[] = [];
   orderNow(restaurantId: number): void {
     //console.log(`Order now clicked for restaurant ID: ${restaurantId}`);
     // TODO: Implement your ordering logic here
-    this.router.navigate(['/food-catalogue',restaurantId]);
+    this.router.navigate(['/food-catalogue/fetchRestaurantById/',restaurantId]);
   }
 }
