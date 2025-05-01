@@ -1,0 +1,277 @@
+Probable topics to upload on #TechieMit as on 12/02/2022
+
+1)Internal HashMap working (Collection API related videos)/Concurrent HashMap internal working Done
+ 
+2)Equals and HashCode contract in hashMap  Done 
+
+3) Excpetion Handling  Done
+
+4)JUnit  Not covered
+
+4)Java Design Patterns  Some videos uploaded
+
+5)MultiThreading  Completed
+
+6)How to create jar file
+
+7)DRY Principles
+
+8)KISS Principle  
+9)Metaspace in Java 8  Done
+
+
+Composition Over Inheritance Principle
+
+
+MultiThreading Topics as on 25th Nov 2023
+
+1)What is Thread ? Ways of creating Threads Thread Lifecycle Covered in video Done
+
+2) Communication between threads Done
+
+
+Wait notify and notifyAll Done
+
+Join method in multithreading Done
+
+3)Various methods /Priority Thread  New video on Thread Priority Probably on 24th or 25th Feb 2024
+
+4)JConsole Demo Done
+
+5)Internal system threads and ThreadGroup   Done
+
+5)Daemon Threads     Done
+
+6)Synchronization in Java   using block and method   Synchronization methods 
+Difference between Synchronization block and method with examples  Done
+
+7)Callable and Future in Java  Done
+
+8)Differnce between Runnable and Callable in Threads Done
+
+ 
+9)Interrupting Thread  Done
+
+10)CountDownLatch in Java     Done
+
+11)Executor Framework in Java (Executor Framework ScheduledExecutorService FixedThreadPool CachedThreadPool) Done
+
+12)ReEntrantLock in Java Done
+
+13)Semaphore in Java  1 Video Done Coding Example needs to be covered Posts to be covered  1 video  comprising of all semaphores along with Binary Counting,Timed,Bounded 
+with method of tryacquire() and availablePermits() Done
+
+
+Next Video Bounded Semaphore v/s Timed Semaphore In Java
+14)Concurrency in Java Done 
+
+15)BlockingQueue in Java
+
+16)PriorityBlockingQueue in Java  Tech video with coding example with PPT explanation first  Done
+
+17)Fork Join Framework Not needed Omit
+
+18)CyclicBarrier in Java Remaining  Notes PreParation  Done
+
+
+
+
+
+
+Topic list after #TechieMit Java Design Principles
+
+
+Here’s a list of Java Design Principles topics you can cover on your YouTube channel #TechieMit:
+
+Coupling and Cohesion  Completed
+
+1. Introduction to Java Design Principles
+
+    What are design principles?
+
+    Why are they important in Java development?
+
+    Difference between design principles and design patterns  Not Started
+
+2. SOLID Principles (One Video per Principle)   Completed
+
+    S – Single Responsibility Principle (SRP)
+
+    O – Open/Closed Principle (OCP)
+
+    L – Liskov Substitution Principle (LSP)
+
+    I – Interface Segregation Principle (ISP)
+
+    D – Dependency Inversion Principle (DIP)
+
+3. DRY (Don’t Repeat Yourself) Principle
+
+    Explanation with examples
+
+    How to avoid code duplication
+
+    Best practices in Java
+
+4. KISS (Keep It Simple, Stupid) Principle
+
+    Writing maintainable and simple code
+
+    Real-world Java examples
+
+5. YAGNI (You Ain’t Gonna Need It) Principle
+
+    Avoiding unnecessary complexity in software design
+
+6. Law of Demeter (LoD) - Principle of Least Knowledge
+
+    Reducing dependencies between objects
+
+7. Favor Composition Over Inheritance
+
+    Why composition is preferred over inheritance in OOP
+
+    Real-world use cases
+
+8. Tell, Don’t Ask Principle
+
+    Writing better object-oriented code
+
+9. Encapsulation and Information Hiding
+
+    Why encapsulation is crucial in Java
+
+    Examples of good and bad encapsulation
+
+10. Principle of Least Astonishment (POLA)
+
+    Designing intuitive and predictable code
+
+11. Cohesion and Coupling
+
+    High cohesion and low coupling in Java applications
+
+12. Fail Fast vs. Fail Safe Design   Not Started
+
+    Understanding fail-fast and fail-safe approaches in Java
+
+13. Effective Use of Java Interfaces & Abstract Classes
+
+    When to use an interface vs. an abstract class
+
+14. Immutability and Best Practices in Java
+
+    Why immutable objects are preferred
+
+    How to create immutable classes
+
+15. Object Calisthenics - Writing Clean Code
+
+    9 rules to improve object-oriented programming
+
+16. Fluent Interface and Method Chaining in Java
+
+    Writing readable and expressive code
+
+17. The Hollywood Principle - “Don’t Call Us, We’ll Call You”
+
+    How frameworks follow this principle (Spring, Hibernate)
+
+18. Command Query Separation (CQS)
+
+    Difference between commands and queries in Java
+
+19. Defensive Programming vs. Offensive Programming
+
+    Writing robust and error-free Java code
+
+20. Principle of Least Privilege (PoLP)
+
+    Restricting access for security and maintainability
+
+
+Java Design Patterns
+
+4?? Behavioral Design Patterns (Handling Communication Between Objects)
+4.1 Observer Pattern
+
+    Publisher-Subscriber model
+
+    Example: Event Listeners in Java
+
+4.2 Strategy Pattern
+
+    Encapsulating different behaviors
+
+    Example: Payment Strategy (Credit Card, PayPal, UPI)
+
+4.3 Command Pattern
+
+    Decoupling sender and receiver
+
+    Example: Undo/Redo functionality
+
+4.4 Template Method Pattern
+
+    Defining a skeleton of an algorithm
+
+    Example: Abstract Class with Concrete Methods
+
+4.5 State Pattern
+
+    Changing behavior based on state
+
+    Example: Vending Machine Implementation
+
+4.6 Chain of Responsibility Pattern
+
+    Passing requests along a chain
+
+    Example: Logging Framework (INFO ? DEBUG ? ERROR)
+
+4.7 Mediator Pattern
+
+    Reducing dependencies between objects
+
+    Example: Chat Application Mediator
+
+4.8 Memento Pattern
+
+    Implementing Undo Mechanism
+
+    Example: Saving Game State
+
+4.9 Interpreter Pattern
+
+    Designing a language parser
+
+    Example: Expression Evaluator
+
+4.10 Visitor Pattern
+
+    Performing operations on object structures
+
+    Example: XML Parsing
+
+5?? Miscellaneous Topics
+5.1 Dependency Injection Pattern
+
+    How Spring Framework uses DI
+
+    Difference between Constructor and Setter Injection
+
+5.2 MVC (Model-View-Controller) Pattern
+
+    Designing scalable web applications
+
+    Example: Spring MVC
+
+5.3 Microservices Design Patterns
+
+    Saga, Circuit Breaker, API Gateway, Event Sourcing
+
+5.4 Reactive Programming Design Patterns
+
+    How patterns evolve in a reactive environment (Project Reactor)
+
+
