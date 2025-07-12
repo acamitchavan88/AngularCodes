@@ -1,0 +1,19 @@
+<div>
+    <h1>Name</h1>
+    <textarea [(ngModel)]="name" cols="15" rows="3"></textarea>
+  
+    <h1>Email</h1>
+    <textarea [(ngModel)]="email" cols="25" rows="3"></textarea>
+  
+    <br /><br />
+  
+    <button (click)="toggleSubmit()">
+      {{ isSubmitted ? 'Hide Details' : 'Show Details' }}
+    </button>
+  
+    <div *ngIf="isSubmitted">
+      <p><strong>Name Entered:</strong> {{ name }}</p>
+      <p><strong>Email Entered:</strong> {{ email }}</p>
+    </div>
+  </div>
+  

@@ -1,0 +1,7 @@
+<html>
+  <h1> Character count demo </h1>
+  <textarea [(ngModel)]="counterValue" rows="5" cols="50"> </textarea>
+  <p> Live Character count is: {{counterValue.length||0}}</p>
+
+  <button (click)="getCharacterCount()"> Get Character Count</button>
+  </html>
