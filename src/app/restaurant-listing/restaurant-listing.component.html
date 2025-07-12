@@ -3,12 +3,16 @@
   <div class="restaurant-card" *ngFor="let restaurant of restaurantList">
     <p *ngIf="!restaurantList || restaurantList.length === 0">No restaurants found.</p>
     <!-- Restaurant Image -->
-    <div class="restaurant-img">
-     <!--  <img *ngFor="let img of restaurantImages" [src]="'assets/img/restaurant-pics/' + img" alt="Restaurant"> -->
+   <!--  <div class="restaurant-img">
+     <img *ngFor="let img of restaurantImages" [src]="'assets/img/restaurant-pics/' + img" alt="Restaurant"> 
 
-     <!-- <img [src]="'img/restaurant-pics/' + getRandomImage()" alt="{{ restaurant?.name }}" />--> 
+      <img [src]="'img/restaurant-pics/' + getRandomImage()" alt="{{ restaurant?.name }}" /> 
      <img *ngFor="let img of restaurantImages" [src]="img" />
-    </div> 
+    </div> -->
+    <div *ngFor="let restaurant of restaurantList">
+      <img [src]="restaurant.imageUrl" alt="{{restaurant.name}}" />
+    </div>
+    
 
     <!-- Restaurant Details -->
     <div class="restaurant-details">
